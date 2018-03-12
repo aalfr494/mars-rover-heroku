@@ -11,3 +11,35 @@ body > div > div > form > select {
 form.input-group {
 	margin-top:7px;
 }
+
+.input-group .form-control {
+	margin-bottom:10px !important;
+}
+
+body > div > div > form > div > span > button {
+	margin-top:55px;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child),
+ .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+ 	border-top-left-radius:4px !important;
+ 	border-bottom-left-radius:4px !important;
+ }
+
+ body {
+ 	background:url('../src/images/blackspace.png') !important;
+ 	color:#fff;
+ }
+
+ label {
+ 	color:#fff;
+ }
+
+ tr {
+ 	color:#fff;
+ }
+
+ .table-hover tbody tr:hover {
+ 	background-color:#000 !important;
+ 	opacity:0.8;
+ }
